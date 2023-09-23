@@ -1,0 +1,12 @@
+.tilte{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    display: block;
+    margin-top: 10rem;
+    
+}
+.page{
+font-size: 4em;
+}

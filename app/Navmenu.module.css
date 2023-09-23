@@ -1,0 +1,21 @@
+.nav{
+    display: flex;
+    background-color: #1b3b6e ;
+    color: #fff;
+    height: 90px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links{
+    list-style: none;
+    display: flex;
+    
+}
+
+.links li{
+    height: 90px;
+    display: flex;
+    align-items: center;
+    font-size: 1.2em;
+}
