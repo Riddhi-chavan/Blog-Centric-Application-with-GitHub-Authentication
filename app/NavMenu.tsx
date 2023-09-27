@@ -19,7 +19,7 @@ export default function NavMenu(){
        </Link>
        <ul className={styles.links}>
         <li className='mr-14 border-x-2 px-10'>
-            <Link href={'/about'}>About</Link>  
+            <Link href={'/About'}>About</Link>  
         </li>
         <li className='mr-2  pr-10'>
             <Link href={'/user'}>User</Link>
