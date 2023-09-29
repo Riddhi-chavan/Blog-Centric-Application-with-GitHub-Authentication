@@ -1,16 +1,18 @@
 .nav{
     display: flex;
     background-color: #1b3b6e ;
-    color: #fff;
+    color: white;
     height: 90px;
     justify-content: space-between;
     align-items: center;
+  
+
 }
 
 .links{
     list-style: none;
     display: flex;
-    
+      margin-left: 10%;
 }
 
 .links li{

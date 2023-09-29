@@ -10,8 +10,9 @@ export default async function Home() {
 
   return (
     <>
-       <div className=" mt-40 flex items-center justify-center">
-      <div className="text-center">
+<div className="min-h-screen " style={{ backgroundImage: "url('https://png.pngtree.com/thumb_back/fh260/background/20210826/pngtree-blue-water-wave-ocean-background-hd-image_770489.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
+  <div>
+  <div className="text-center pt-40">
         <h1 className="text-4xl font-bold mb-4">Welcome to My Space</h1>
         <p className="text-gray-600 mb-8">here you can view and share Blogs</p>
         <Link href="/Blog">
@@ -23,7 +24,10 @@ export default async function Home() {
           <Loginbutton  />
         </Link>
       </div>
+  </div>
     </div>
+
+
     </>
   )
 }

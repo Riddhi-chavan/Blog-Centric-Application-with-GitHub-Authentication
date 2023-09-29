@@ -18,7 +18,10 @@ export default function NavMenu(){
        />
        </Link>
        <ul className={styles.links}>
-        <li className='mr-14 border-x-2 px-10'>
+        <li>
+            <Link href={"/"} className='mr-10'>Home</Link>
+        </li>
+        <li className='mr-14 px-10'>
             <Link href={'/About'}>About</Link>  
         </li>
         <li className='mr-2  pr-10'>

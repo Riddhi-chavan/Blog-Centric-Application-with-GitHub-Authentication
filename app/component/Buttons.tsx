@@ -15,7 +15,7 @@ export function SignInButton(){
     if(status === 'authenticated'){
         return (
             <>
-            <div className='flex  mr-10 border-l-2  h-24  ml-6 pl-3'>
+            <div className='flex  mr-10  h-24  ml-6 pl-3'>
                 <div className='flex pt-8 pl-3'>
             <Link href={`http://localhost:3000/api/auth/signin`}>
                 <Image
