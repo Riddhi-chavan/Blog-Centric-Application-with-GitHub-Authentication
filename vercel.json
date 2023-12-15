@@ -1,0 +1,8 @@
+{
+    "build": {
+      "commands": {
+        "build": "prisma generate && next build"
+      }
+    }
+  }
+  
