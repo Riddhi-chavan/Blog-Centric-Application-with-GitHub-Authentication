@@ -3,11 +3,11 @@ import './UserCard.module.css'
 import Image from "next/image";
 
 interface Props {
-    id :string ;
-    name : string | null ;
-    age : number | null;
-    image : string | null ;
-    bio: string | null;
+    id : any ;
+    name : any ;
+    age : any;
+    image : any ;
+    bio: any;
 
 }
 
