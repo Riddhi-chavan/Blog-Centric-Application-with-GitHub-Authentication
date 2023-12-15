@@ -2,6 +2,7 @@
 import React from 'react'
 import { useState  , useEffect} from 'react'
 import { SignInButton } from '../component/Buttons';
+import Image from 'next/image';
 
 const Nav = () => {
     const [showdrop , setshowdrop ] = useState(false);
@@ -61,7 +62,7 @@ const Nav = () => {
                         </div>
                         <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                             <div className="flex flex-shrink-0 items-center">
-                                <img className="h-16 w-auto" src="/icon.svg" alt="Your Company" />
+                                <Image className="h-16 w-auto" src="/icon.svg" alt="Your Company" width="20" height="20"/>
                             </div>
                             <div className="hidden sm:ml-6 sm:block mt-3">
                              
@@ -82,29 +83,6 @@ const Nav = () => {
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M14.857 17.082a23.848 23.848 0 005.454-1.31A8.967 8.967 0 0118 9.75v-.7V9A6 6 0 006 9v.75a8.967 8.967 0 01-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 01-5.714 0m5.714 0a3 3 0 11-5.714 0" />
                                 </svg>
                             </button>
-{/* 
-                            <div className="relative ml-3">
-                                <div>
-                                    <button type="button" onClick={handleuser} className="relative flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800" id="user-menu-button" aria-expanded="false" aria-haspopup="true">
-                                        <span className="absolute -inset-1.5"></span>
-                                        <span className="sr-only">Open user menu</span>
-                                     {image  ? 
-                                        <img className="h-8 w-8 rounded-full" src="/question.png" alt="" />
-                                        :  
-                                          <SignInButton/>
-                                        }
-                                    </button>
-                                </div>
-                                { showdrop ? 
-                                    <div className="absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="user-menu-button" >
-                                        <a href="#" className="block px-4 py-2 text-sm text-gray-700" role="menuitem" id="user-menu-item-0">Your Profile</a>
-                                        <a href="#" className="block px-4 py-2 text-sm text-gray-700" role="menuitem" id="user-menu-item-1">Settings</a>
-                                        <a href="#" className="block px-4 py-2 text-sm text-gray-700" role="menuitem" id="user-menu-item-2">Sign out</a>
-                                    </div>
-                                    :
-                                    null 
-                                    }
-                                </div> */}
                                 <SignInButton/>
                         </div>
                     </div>

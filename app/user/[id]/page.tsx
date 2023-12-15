@@ -37,6 +37,8 @@ export default async function UserProfile({params} : Props) {
             className="w-64 h-64 object-cover rounded-full mx-auto mb-4"
             src={image ?? '/mememan.webp'}
             alt={`${name}'s profile`}
+            width="20"
+            height="20"
         />
         <div className="text-lg font-semibold mb-2">Bio</div>
         <p className="text-gray-600 mb-4">{bio}</p>

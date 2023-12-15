@@ -18,6 +18,8 @@ return (
     src={image?? '/mememan.webp'}
     alt={`${name}'s profile`}
     className="w-16 h-16 rounded-full"
+    width="20"
+    height="20"
     />
     <div className="flex">
         <div>
