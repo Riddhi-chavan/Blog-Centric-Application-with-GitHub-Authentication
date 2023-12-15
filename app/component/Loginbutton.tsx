@@ -22,11 +22,12 @@ export function Loginbutton() {
         return null; // Hide the login button when authenticated
     }
     return (
-        <button className="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-md ml-2">
-            <Link href={`http://localhost:3000/api/auth/signin`} >
-                Login with Github
-            </Link>
-        </button>
+       <button
+      className="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-md ml-2"
+      onClick={() => signIn('github')}
+    >
+      Login with Github
+    </button>
     );
 }
 

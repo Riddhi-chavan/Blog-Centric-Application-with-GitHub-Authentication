@@ -25,7 +25,7 @@ export function SignInButton(){
                 alt='your name'/>  
             </Link>
             </div>
-            <button onClick={()=> signOut()}  className='ml-3 '>Sign  Out </button>
+            <button onClick={()=> signOut()}  className='ml-3 text-white '>Sign  Out </button>
             
             </div>
             </>
