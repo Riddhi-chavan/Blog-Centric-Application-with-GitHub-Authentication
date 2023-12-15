@@ -1,5 +1,6 @@
 import  Link from "next/link";
 import './UserCard.module.css' 
+import Image from "next/image";
 
 interface Props {
     id :string ;
@@ -13,7 +14,7 @@ interface Props {
 export default function Usercard({id, name ,   bio, image }: Props){
 return (
    <div className="flex items-center space-x-4 p-4 border rounded-lg shadow-lg mt-32 max-w-5xl ml-44">
-    <img 
+    <Image 
     src={image?? '/mememan.webp'}
     alt={`${name}'s profile`}
     className="w-16 h-16 rounded-full"

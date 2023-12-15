@@ -3,6 +3,7 @@ import FollowButton from "@/app/component/FollowButton/FollowButton";
 import {prisma} from '../../../lib/prisma'
 import { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 
 interface Props {
     params : {
@@ -32,7 +33,7 @@ export default async function UserProfile({params} : Props) {
         </button>
         </div>
         </div>
-        <img
+        <Image
             className="w-64 h-64 object-cover rounded-full mx-auto mb-4"
             src={image ?? '/mememan.webp'}
             alt={`${name}'s profile`}

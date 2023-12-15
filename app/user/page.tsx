@@ -6,7 +6,7 @@ export default async function User() {
   return (
     <div>
       {
-        users.map((user) => {
+        users.map(() => {
           return <div>
             {
               users.map((users) => {
